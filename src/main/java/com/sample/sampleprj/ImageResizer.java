@@ -62,8 +62,8 @@ public class ImageResizer {
 
         try {
             // resize to a fixed width (not proportional)
-            int scaledWidth = 1024;
-            int scaledHeight = 768;
+            int scaledWidth = 1648;
+            int scaledHeight = 2338;
             ImageResizer.resize(inputImagePath, outputImagePath1, scaledWidth, scaledHeight);
 
             // resize smaller by 50%
